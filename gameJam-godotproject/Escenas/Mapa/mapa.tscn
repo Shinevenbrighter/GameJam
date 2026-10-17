@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://dvrot12g1ydnt"]
+
+[ext_resource type="Texture2D" uid="uid://dh84fklrot8kf" path="res://assets/mapa-v2-transparencia.png" id="1_oghf7"]
+[ext_resource type="Texture2D" uid="uid://8eiqk3pni2s2" path="res://assets/mapa v2.png" id="2_7at6k"]
+[ext_resource type="PackedScene" uid="uid://bs30ui06d3ggf" path="res://Escenas/Entidades/personaje.tscn" id="2_mhgpt"]
+
+[node name="Mapa" type="Node2D" unique_id=1562263346]
+
+[node name="MapaV2" type="Sprite2D" parent="." unique_id=1264308200]
+position = Vector2(960, 540)
+texture = ExtResource("1_oghf7")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MapaV2" unique_id=2000643884]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1785003756]
+polygon = PackedVector2Array(-746, -540, -934, -540, -934, -358, -746, -358)
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1688242189]
+polygon = PackedVector2Array(-506, -540, -694, -540, -694, -358, -506, -358)
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=711721689]
+polygon = PackedVector2Array(-266, -540, -454, -540, -454, -178, -266, -178)
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1896001698]
+polygon = PackedVector2Array(214, -540, -214, -540, -214, -358, 214, -358)
+
+[node name="CollisionPolygon2D5" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=476122014]
+polygon = PackedVector2Array(454, -540, 266, -540, 266, -118, 454, -118)
+
+[node name="CollisionPolygon2D6" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=112636691]
+polygon = PackedVector2Array(694, -540, 506, -540, 506, -358, 694, -358)
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=876462805]
+polygon = PackedVector2Array(934, -540, 746, -540, 746, -358, 934, -358)
+
+[node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1722871095]
+polygon = PackedVector2Array(-932, -304, -932, -302.3, -934, -301.2, -934, 62, -746, 62, -746, -302)
+
+[node name="CollisionPolygon2D9" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=2034367395]
+polygon = PackedVector2Array(-692, -304, -692, -302.3, -694, -301.2, -694, 62, -506, 62, -506, -302)
+
+[node name="CollisionPolygon2D10" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1387342493]
+polygon = PackedVector2Array(-212, -304, -212, -302.3, -214, -301.2, -214, 62, -26, 62, -26, -302)
+
+[node name="CollisionPolygon2D11" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=65544704]
+polygon = PackedVector2Array(28, -304, 28, -302.3, 26, -301.2, 26, -118, 214, -118, 214, -302)
+
+[node name="CollisionPolygon2D12" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=811694483]
+polygon = PackedVector2Array(508, -304, 508, -302.3, 506, -301.2, 506, -118, 694, -118, 694, -302)
+
+[node name="CollisionPolygon2D13" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=87184504]
+polygon = PackedVector2Array(748, -304, 748, -302.3, 746, -301.2, 746, 62, 934, 62, 934, -302)
+
+[node name="CollisionPolygon2D14" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=388551973]
+polygon = PackedVector2Array(-452, -124, -452, -122.29999, -454, -121.20001, -454, 302, -266, 302, -266, -122)
+
+[node name="CollisionPolygon2D15" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1647983086]
+polygon = PackedVector2Array(28, -64, 28, -62.299988, 26, -61.200012, 26, 302, 214, 302, 214, -62)
+
+[node name="CollisionPolygon2D16" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1912913032]
+polygon = PackedVector2Array(268, -64, 268, -62.299988, 266, -61.200012, 266, 122, 454, 122, 454, -62)
+
+[node name="CollisionPolygon2D17" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=2009085096]
+polygon = PackedVector2Array(508, -64, 508, -62.299988, 506, -61.200012, 506, 302, 694, 302, 694, -62)
+
+[node name="CollisionPolygon2D18" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=361245511]
+polygon = PackedVector2Array(-932, 116, -932, 117.70001, -934, 118.79999, -934, 302, -746, 302, -746, 118)
+
+[node name="CollisionPolygon2D19" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1830632811]
+polygon = PackedVector2Array(-692, 116, -692, 117.70001, -694, 118.79999, -694, 482, -506, 482, -506, 118)
+
+[node name="CollisionPolygon2D20" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1246450376]
+polygon = PackedVector2Array(-212, 116, -212, 117.70001, -214, 118.79999, -214, 302, -26, 302, -26, 118)
+
+[node name="CollisionPolygon2D21" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=2095699883]
+polygon = PackedVector2Array(748, 116, 748, 117.70001, 746, 118.79999, 746, 302, 934, 302, 934, 118)
+
+[node name="CollisionPolygon2D22" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=795392690]
+polygon = PackedVector2Array(454, 178, 268, 176, 268, 179, 266, 540, 454, 540)
+
+[node name="CollisionPolygon2D23" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=722168592]
+polygon = PackedVector2Array(-746, 358, -932, 356, -932, 359, -934, 540, -746, 540)
+
+[node name="CollisionPolygon2D24" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1565492353]
+polygon = PackedVector2Array(-28, 356, -452, 356, -452, 359, -454, 540, -26.099976, 540, -28, 359)
+
+[node name="CollisionPolygon2D25" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=882813309]
+polygon = PackedVector2Array(214, 358, 28, 356, 28, 359, 26, 540, 214, 540)
+
+[node name="CollisionPolygon2D26" type="CollisionPolygon2D" parent="MapaV2/StaticBody2D" unique_id=1072979271]
+polygon = PackedVector2Array(932, 356, 508, 356, 508, 359, 506, 540, 933.9, 540, 932, 359)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MapaV2/StaticBody2D" unique_id=1271481807]
+
+[node name="MapaV3" type="Sprite2D" parent="." unique_id=121212055]
+position = Vector2(960, 540)
+texture = ExtResource("2_7at6k")
+
+[node name="Personaje" parent="." unique_id=305067496 instance=ExtResource("2_mhgpt")]
+position = Vector2(672, 390)

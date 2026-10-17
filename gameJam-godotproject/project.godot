@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="godotTest"
-run/main_scene="res://personaje.tscn"
+run/main_scene="uid://dvrot12g1ydnt"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -22,7 +22,8 @@ Dialogic="*uid://ds2q0uclmolvu"
 [dialogic]
 
 directories/dch_directory={
-"Cami": "res://Dialogos/Cami.dch"
+"Cami": "res://Dialogos/Cami.dch",
+"Jefa": "res://Dialogos/Jefa.dch"
 }
 directories/dtl_directory={
 "conversacion1": "res://Dialogos/conversacion1.dtl"
@@ -67,8 +68,9 @@ audio/channel_defaults={
 
 [display]
 
+window/size/viewport_width=1920
+window/size/viewport_height=1080
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
 
 [editor]
 

@@ -1,1 +1,14 @@
-Cami: Hola!
+[background arg="res://addons/dialogic/Resources/Fondooficina.png.jpg" fade="0.0"]
+El día que todo comenzó...
+Cami entra temprano a las oficinas centrales de CHI! , la empresa de envíos más rápida y servicial de la ciudad, cuyo lema corporativo es " CHI! A todo".
+Como becaria de logística, el trabajo de Cami consistía originalmente en organizar listas y monitorear rutas frente a una computadora.
+Sin embargo, esa mañana ocurre un imprevisto...
+ Dallas, el repartidor estrella encargado de la zona centro, no llega a su turno ni contesta las llamadas.
+join Cami (Sorprendida) center [animation="Fade In Up"]
+Cami (Sorprendida): *Suspiro* Otra mañana tranquila... o eso espero. Solo tengo que terminar estas tablas de Excel y podré adelantar mis tareas de la universidad.
+De pronto, la pantalla del sistema empieza a parpadear en rojo. Entregas acumuladas. Clientes impacientes.
+join jefe center
+Jefa: Cams, querida... mi becaria favorita.
+Cami: *Traga saliva* Buenos días, jefa. ¿Pasa algo con la ruta de Dallas?
+Jefa: Ay, ese inútil no contesta el teléfono. Cams, eres un ángel, salvas la empresa hoy.
+Jefa: Es solo por unas horas mientras aparece Dallas... tú nunca me fallas, ¿verdad?
