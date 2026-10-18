@@ -1,5 +1,6 @@
 [style name="visual"]
 [background arg="res://addons/dialogic/Resources/oficina.jpg" fade="0.0"]
+audio music "res://assets/audio/169660__leossom__ambiente-escritorio-ok.wav" [volume="-12.0"]
 El día que todo comenzó...
 Las oficinas centrales de CHI! huelen a café barato y a estrés matutino. \
 El lema corporativo brilla en la pared en letras de neón\: "CHI! A todo".

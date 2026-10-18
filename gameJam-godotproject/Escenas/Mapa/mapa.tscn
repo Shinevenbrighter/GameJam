@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://bs30ui06d3ggf" path="res://Escenas/Entidades/personaje.tscn" id="2_mhgpt"]
 [ext_resource type="Script" uid="uid://c8ntaj8s1y64u" path="res://Escenas/Mapa/ui_interaccion.gd" id="4_7at6k"]
 [ext_resource type="PackedScene" uid="uid://d11ygha4hh8l5" path="res://Escenas/Entidades/MarcadorMision1.tscn" id="5_waniv"]
+[ext_resource type="AudioStream" uid="uid://dyaeyq1qbewko" path="res://assets/audio/829998__bassimat__anxious-drum-loop-120bpm-001.wav" id="7_pvc6c"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ndkfb"]
 size = Vector2(26, 1079.75)
@@ -165,3 +166,7 @@ horizontal_alignment = 1
 
 [node name="MarcadorMision1" parent="." unique_id=1328036435 instance=ExtResource("5_waniv")]
 position = Vector2(1320, 659)
+
+[node name="BGMusic" type="AudioStreamPlayer2D" parent="." unique_id=1099453674]
+stream = ExtResource("7_pvc6c")
+autoplay = true
