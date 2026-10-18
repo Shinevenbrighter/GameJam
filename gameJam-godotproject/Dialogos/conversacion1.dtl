@@ -1,14 +1,25 @@
-[background arg="res://addons/dialogic/Resources/Fondooficina.png.jpg" fade="0.0"]
+[background arg="res://addons/dialogic/Resources/oficina.jpg" fade="0.0"]
 El día que todo comenzó...
-Cami entra temprano a las oficinas centrales de CHI! , la empresa de envíos más rápida y servicial de la ciudad, cuyo lema corporativo es " CHI! A todo".
-Como becaria de logística, el trabajo de Cami consistía originalmente en organizar listas y monitorear rutas frente a una computadora.
-Sin embargo, esa mañana ocurre un imprevisto...
- Dallas, el repartidor estrella encargado de la zona centro, no llega a su turno ni contesta las llamadas.
+Las oficinas centrales de CHI! huelen a café barato y a estrés matutino. \
+El lema corporativo brilla en la pared en letras de neón\: "CHI! A todo".
 join Cami (Sorprendida) center [animation="Fade In Up"]
-Cami (Sorprendida): *Suspiro* Otra mañana tranquila... o eso espero. Solo tengo que terminar estas tablas de Excel y podré adelantar mis tareas de la universidad.
-De pronto, la pantalla del sistema empieza a parpadear en rojo. Entregas acumuladas. Clientes impacientes.
-join jefe center
+Cami (Sorprendida): *Suspiro* Otra mañana tranquila... o eso espero.
+De pronto, la pantalla del sistema empieza a parpadear en rojo. Entregas acumuladas.\
+Dallas, el repartidor estrella de la zona centro, no ha llegado.
+join  center
 Jefa: Cams, querida... mi becaria favorita.
 Cami: *Traga saliva* Buenos días, jefa. ¿Pasa algo con la ruta de Dallas?
 Jefa: Ay, ese inútil no contesta el teléfono. Cams, eres un ángel, salvas la empresa hoy.
 Jefa: Es solo por unas horas mientras aparece Dallas... tú nunca me fallas, ¿verdad?
+- Claro, no hay problema...
+ Cami: Sí, claro, yo me encargo del turno.
+- Pero mis reportes...
+ Cami: Pero jefa, tengo que terminar los reportes y...
+ Jefa: Pensé que eras del equipo! Me decepcionas profundamente. Los reportes pueden esperar, la reputación de CHI! no.
+ Cami: ... Ok, está bien, lo haré. Ay, ¿cómo te voy a decir que no?
+Jefa: ¡Sabía que podía contar contigo! Toma, ponte esto.
+*La Jefa le cuelga a Cami la pesada mochila de entregas en la espalda*
+[signal arg="[signal arg="activar_boton_mochila"]"]
+leave Jefa
+Cami: *Susurrando* ¿En qué me acabo de meter?
+[end_timeline]

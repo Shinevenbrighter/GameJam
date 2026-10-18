@@ -24,9 +24,12 @@ EventController="*uid://cj8thi16datxg"
 
 directories/dch_directory={
 "Cami": "res://Dialogos/Cami.dch",
+"Chippy": "res://Chippy.dch",
 "Jefa": "res://Dialogos/Jefa.dch"
 }
 directories/dtl_directory={
+"02_tutorial_chippy": "res://02_tutorial_chippy.dtl",
+"03_mision_1": "res://03_mision_1.dtl",
 "conversacion1": "res://Dialogos/conversacion1.dtl"
 }
 layout/style_directory={}
