@@ -1,25 +1,26 @@
+[style name="visual"]
 [background arg="res://addons/dialogic/Resources/oficina.jpg" fade="0.0"]
 El día que todo comenzó...
 Las oficinas centrales de CHI! huelen a café barato y a estrés matutino. \
 El lema corporativo brilla en la pared en letras de neón\: "CHI! A todo".
-join Cami (Sorprendida) center [animation="Fade In Up"]
-Cami (Sorprendida): *Suspiro* Otra mañana tranquila... o eso espero.
+join Cami (Okay) left [animation="Fade In Up" length="0.4"]
+Cami (Okay): *Suspiro* Otra mañana tranquila... o eso espero.
 De pronto, la pantalla del sistema empieza a parpadear en rojo. Entregas acumuladas.\
 Dallas, el repartidor estrella de la zona centro, no ha llegado.
-join  center
+join Jefa right [z_index="-7"]
 Jefa: Cams, querida... mi becaria favorita.
-Cami: *Traga saliva* Buenos días, jefa. ¿Pasa algo con la ruta de Dallas?
+Cami (Sorprendida): *Traga saliva* Buenos días, jefa. ¿Pasa algo con la ruta de Dallas?
 Jefa: Ay, ese inútil no contesta el teléfono. Cams, eres un ángel, salvas la empresa hoy.
 Jefa: Es solo por unas horas mientras aparece Dallas... tú nunca me fallas, ¿verdad?
 - Claro, no hay problema...
- Cami: Sí, claro, yo me encargo del turno.
+ Cami (Okay): Sí, claro, yo me encargo del turno.
 - Pero mis reportes...
- Cami: Pero jefa, tengo que terminar los reportes y...
+ Cami (Sorprendida): Pero jefa, tengo que terminar los reportes y...
  Jefa: Pensé que eras del equipo! Me decepcionas profundamente. Los reportes pueden esperar, la reputación de CHI! no.
- Cami: ... Ok, está bien, lo haré. Ay, ¿cómo te voy a decir que no?
+ Cami (Triste): ... Ok, está bien, lo haré. Ay, ¿cómo te voy a decir que no?
 Jefa: ¡Sabía que podía contar contigo! Toma, ponte esto.
 *La Jefa le cuelga a Cami la pesada mochila de entregas en la espalda*
 [signal arg="activar_boton_mochila"]
 leave Jefa
-Cami: *Susurrando* ¿En qué me acabo de meter?
+Cami (Triste): *Susurrando* ¿En qué me acabo de meter?
 [end_timeline]

@@ -7,4 +7,3 @@
 script = ExtResource("1_te0xw")
 
 [node name="HUD_Mochila" parent="." unique_id=2120794363 instance=ExtResource("2_0sixq")]
-visible = false

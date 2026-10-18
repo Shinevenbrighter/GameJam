@@ -1,12 +1,17 @@
-join Cami center
-Cami: *Suspirando* Ay, mis piernas, ya no siento los pies.
-Cami: Uno más y ya... ¿verdad que no pasa nada?
+[style name="visual"]
+[background arg="res://addons/dialogic/Resources/escaleras.png" fade="0.0"]
+join Cami (Triste) center
+Cami (Triste): *Suspirando* Ay, mis piernas, ya no siento los pies.
+Cami (Okay): Uno más y ya... ¿verdad que no pasa nada?
 El teléfono de Cami vibra fuertemente.
-join Jefa center
+join Cami left
+join Jefa right
 Jefa: Cams, nena, no recuerdo los pisos donde debes de entregar los sobres, pero eres muy lista, estoy segura de que lo averiguarás, ¡suerte!
 leave Jefa
+leave Cami
 join Chippy center
 Chippy: Atención! Tienes 30 segundos para adivinar el piso correcto presionando los botones de los elevadores.
 Chippy: ¡Si fallas, subirás escaleras extra!
 [signal arg="[signal arg="iniciar_minijuego_elevador"]"]
 [end_timeline]
+[background arg="res://addons/dialogic/Resources/escaleras.png" fade="0.0"]

@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://drtg32m35oti0"]
 
 [ext_resource type="Script" uid="uid://dijc8afkd7u6u" path="res://hud_mochila.gd" id="1_abvgy"]
-[ext_resource type="Texture2D" uid="uid://bfn7ctg6nrkwp" path="res://addons/dialogic/Modules/WaitInput/icon.svg" id="2_bu125"]
+[ext_resource type="Texture2D" uid="uid://cwaj6ou428c46" path="res://mochila.png" id="2_abvgy"]
 
 [node name="HUD_Mochila" type="CanvasLayer" unique_id=2120794363]
 layer = 10
@@ -13,10 +13,11 @@ anchor_left = 0.9620001
 anchor_top = 0.072000004
 anchor_right = 0.9620001
 anchor_bottom = 0.072000004
-offset_left = -40.04016
-offset_top = -39.760002
-offset_right = 39.95984
-offset_bottom = 40.239998
-texture_normal = ExtResource("2_bu125")
+offset_left = -112.04016
+offset_top = -68.759995
+offset_right = 1543.9598
+offset_bottom = 2014.24
+scale = Vector2(0.1, 0.1)
+texture_normal = ExtResource("2_abvgy")
 
 [connection signal="pressed" from="TextureButton" to="." method="_on_texture_button_pressed"]

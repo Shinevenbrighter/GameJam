@@ -1,6 +1,7 @@
+[style name="speaker"]
 join Chippy center
 Chippy: ¡Hola, Cami! ¡Bienvenida a tu primer día como repartidora CHI!
-Tu misión es entregar 3 sobres en el distrito financiero. Usa las teclas para caminar hacia el signo de interrogación.
-Chippy\: Pero ojo\: si caminas demasiado, tu barra de energía física bajará. ¡A mover esos pies!
-leave 
+Chippy: Tu misión es entregar 3 sobres en el distrito financiero. Usa las teclas para caminar hacia el signo de interrogación.
+Chippy: Pero ojo\: si caminas demasiado, tu barra de energía física bajará. ¡A mover esos pies!
+leave Chippy
 [end_timeline]
