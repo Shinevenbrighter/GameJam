@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://d2dj8mgwa67ap"]
+
+[node name="Camera2D" type="Camera2D" unique_id=624666485]
+zoom = Vector2(2, 2)
+limit_left = 0
+limit_top = 0
+limit_right = 1920
+limit_bottom = 1080
