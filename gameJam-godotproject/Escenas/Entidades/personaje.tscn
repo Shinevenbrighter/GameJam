@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://bs30ui06d3ggf"]
 
 [ext_resource type="Script" uid="uid://dho8k7d8cadma" path="res://movement.gd" id="1_ij6vw"]
-[ext_resource type="Texture2D" uid="uid://be85u3jvsicqw" path="res://icon.svg" id="2_ghijl"]
+[ext_resource type="Texture2D" uid="uid://bn74oooxy1gw6" path="res://assets/icono.png" id="2_uxs7h"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_oghf7"]
 radius = 25.019993
@@ -13,5 +13,6 @@ script = ExtResource("1_ij6vw")
 shape = SubResource("CircleShape2D_oghf7")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1953928465]
-scale = Vector2(0.359375, 0.3593749)
-texture = ExtResource("2_ghijl")
+position = Vector2(3, 1)
+scale = Vector2(0.07228915, 0.072289154)
+texture = ExtResource("2_uxs7h")
