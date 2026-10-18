@@ -19,7 +19,7 @@ Jefa: Es solo por unas horas mientras aparece Dallas... tú nunca me fallas, ¿v
  Cami: ... Ok, está bien, lo haré. Ay, ¿cómo te voy a decir que no?
 Jefa: ¡Sabía que podía contar contigo! Toma, ponte esto.
 *La Jefa le cuelga a Cami la pesada mochila de entregas en la espalda*
-[signal arg="[signal arg="activar_boton_mochila"]"]
+[signal arg="activar_boton_mochila"]
 leave Jefa
 Cami: *Susurrando* ¿En qué me acabo de meter?
 [end_timeline]

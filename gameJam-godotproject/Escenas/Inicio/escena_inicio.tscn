@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://dw67u2s7o2x18"]
+
+[ext_resource type="Script" uid="uid://ckrsqtgnbefil" path="res://Escenas/Inicio/escena_inicio.gd" id="1_te0xw"]
+[ext_resource type="PackedScene" uid="uid://drtg32m35oti0" path="res://hud_mochila.tscn" id="2_0sixq"]
+
+[node name="Escena_inicio" type="Node2D" unique_id=766018372]
+script = ExtResource("1_te0xw")
+
+[node name="HUD_Mochila" parent="." unique_id=2120794363 instance=ExtResource("2_0sixq")]
+visible = false

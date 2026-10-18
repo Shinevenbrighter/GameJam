@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="godotTest"
-run/main_scene="uid://dvrot12g1ydnt"
+run/main_scene="uid://dw67u2s7o2x18"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
@@ -24,12 +24,12 @@ EventController="*uid://cj8thi16datxg"
 
 directories/dch_directory={
 "Cami": "res://Dialogos/Cami.dch",
-"Chippy": "res://Chippy.dch",
+"Chippy": "res://Dialogos/Chippy.dch",
 "Jefa": "res://Dialogos/Jefa.dch"
 }
 directories/dtl_directory={
-"02_tutorial_chippy": "res://02_tutorial_chippy.dtl",
-"03_mision_1": "res://03_mision_1.dtl",
+"02_tutorial_chippy": "res://Dialogos/02_tutorial_chippy.dtl",
+"03_mision_1": "res://Dialogos/03_mision_1.dtl",
 "conversacion1": "res://Dialogos/conversacion1.dtl"
 }
 layout/style_directory={}

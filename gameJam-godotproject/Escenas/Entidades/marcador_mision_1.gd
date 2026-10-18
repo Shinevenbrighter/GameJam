@@ -6,10 +6,10 @@ func _ready() -> void:
 	sprite.visible = true
 	EventController.interaction.connect(_on_interaction)
 
-
 func _on_interaction(node: Node):
+	# Cuando el jugador aprieta E sobre este objeto:
 	if node == self:
 		sprite.visible = false
-	#Dialogic.start("conversacion1")
+		# Llamamos a tu Diálogo 3 de la misión
+		Dialogic.start("03_mision_1") 
 		EventController.interactable.emit(null, '')
-	

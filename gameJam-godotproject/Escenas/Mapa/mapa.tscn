@@ -1,5 +1,6 @@
 [gd_scene format=3 uid="uid://dvrot12g1ydnt"]
 
+[ext_resource type="Script" uid="uid://c4p7pwfx05mb7" path="res://Escenas/Mapa/mapa.gd" id="1_ahulq"]
 [ext_resource type="Texture2D" uid="uid://dh84fklrot8kf" path="res://assets/mapa-v2-transparencia.png" id="1_oghf7"]
 [ext_resource type="Texture2D" uid="uid://8eiqk3pni2s2" path="res://assets/mapa v2.png" id="2_7at6k"]
 [ext_resource type="PackedScene" uid="uid://bs30ui06d3ggf" path="res://Escenas/Entidades/personaje.tscn" id="2_mhgpt"]
@@ -24,6 +25,7 @@ expand_margin_right = 20.0
 expand_margin_bottom = 10.0
 
 [node name="Mapa" type="Node2D" unique_id=1562263346]
+script = ExtResource("1_ahulq")
 
 [node name="MapaV2" type="Sprite2D" parent="." unique_id=1264308200]
 position = Vector2(960, 540)
