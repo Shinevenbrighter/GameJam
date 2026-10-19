@@ -1,5 +1,6 @@
 [style name="visual"]
 [background arg="res://addons/dialogic/Resources/escaleras.png" fade="0.0"]
+audio music "res://assets/audio/484254__mmcollins__level-1.wav" [volume="-15.0"]
 join Cami (Triste) center
 Cami (Triste): *Suspirando* Ay, mis piernas, ya no siento los pies.
 Cami (Okay): Uno más y ya... ¿verdad que no pasa nada?
@@ -7,6 +8,7 @@ El teléfono de Cami vibra fuertemente.
 join Cami left
 join Jefa right
 Jefa: Cams, nena, no recuerdo los pisos donde debes de entregar los sobres, pero eres muy lista, estoy segura de que lo averiguarás, ¡suerte!
+audio "res://assets/audio/473769__kriptonauta001__13suspiro_femenino_sorpresa.wav"
 leave Jefa
 leave Cami
 join Chippy center

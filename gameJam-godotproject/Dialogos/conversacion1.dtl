@@ -23,5 +23,6 @@ Jefa: ¡Sabía que podía contar contigo! Toma, ponte esto.
 *La Jefa le cuelga a Cami la pesada mochila de entregas en la espalda*
 [signal arg="activar_boton_mochila"]
 leave Jefa
+audio "res://assets/audio/473769__kriptonauta001__13suspiro_femenino_sorpresa.wav"
 Cami (Triste): *Susurrando* ¿En qué me acabo de meter?
 [end_timeline]
